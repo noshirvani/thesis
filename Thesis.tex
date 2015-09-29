@@ -1,0 +1,27 @@
+
+\documentclass[fleqn,oneside,openany,bsc]{NIT_thesis}
+
+ %-----------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+\input{FrontMat/Settings}
+
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+
+\appendix
+\include{references}
+
+\baselineskip=.7cm
+
+% درصورت عدم نیاز به نگارش نمایه این  خط  را غیرفعال کنید. در ضمن باید در ویرایشگر
+% خود گزینه‌ی --shell-escape  را برای  فرمان xelatex  فعال کنید.
+\phantomsection‎  \printindex
+
+\input{en_title}
+
+
+\end{document}
+

@@ -1,0 +1,21 @@
+\linespread{2}
+\baselineskip=2cm
+\pagenumbering{harfi}
+\input{fa_title}
+
+\pagenumbering{arabic}
+\pagenumbering{alph}
+
+
+\renewcommand\bibname{مراجع}
+\tableofcontents\addtocontents{toc}{\protect\thispagestyle{empty}}\newpage
+\renewcommand\listfigurename{فهرست شکل‌ها}\listoffigures
+\renewcommand\listtablename{فهرست جدول‌ها}\listoftables
+\phantomsection\addcontentsline{toc}{chapter}{فهرست علائم}\input{FrontMat/Symbols}
+
+
+
+\newpage
+\LineStretch{1.85}
+
+\pagenumbering{arabic}
